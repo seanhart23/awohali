@@ -31,3 +31,17 @@ p {
     width: 20%;
     margin: auto;
 }
+
+@media (max-width: 768px) {
+
+    #main-logo {
+        width: 100%;
+        margin: 50px auto 25px auto;
+    }
+
+    #wgclogo {
+        width: 50%;
+        margin: auto;
+    }
+
+}

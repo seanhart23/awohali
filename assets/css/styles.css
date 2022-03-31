@@ -1,0 +1,33 @@
+a {
+    color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+}
+
+a:hover {
+      color: red;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;  
+}
+
+.logo-container {
+    width: 100%;
+    text-align: center;
+}
+
+#main-logo {
+    width: 65%;
+    margin: 50px auto 25px auto;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+#wgclogo {
+    width: 20%;
+    margin: auto;
+}

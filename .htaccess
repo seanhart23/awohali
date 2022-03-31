@@ -1,5 +1,5 @@
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST}  ([^/]+)\.awohaligroupconsulting\.com.*
+RewriteCond %{HTTP_HOST}  ([^/]+)\.awohaligroupconsulting\.org.*
 RewriteCond %{REQUEST_URI}  ^/([^/]+)$
-RewriteRule .*  http://%1.example.com/somepath/%1/%2 [L]
+RewriteRule .*  http://%1.awohaligroupconsulting.org/somepath/%1/%2 [L]
